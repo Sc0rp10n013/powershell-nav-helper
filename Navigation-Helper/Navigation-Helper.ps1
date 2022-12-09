@@ -3,15 +3,15 @@
 A lazy solution for navigating to common folders
 
 .EXAMPLE
-PS> .\Navigation-Helper -key test
+PS> .\Navigation-Helper.ps1 -key test
 PS C:\test\directory>
 
 .EXAMPLE
-PS> .\Navigation-Helper -dir C:\some\directory
+PS> .\Navigation-Helper.ps1 -dir C:\some\directory
 PS C:\some\directory>
 
 .EXAMPLE
-PS> .\Navigation-Helper -list
+PS> .\Navigation-Helper.ps1 -list
 
 key   directory
 ---   ---------

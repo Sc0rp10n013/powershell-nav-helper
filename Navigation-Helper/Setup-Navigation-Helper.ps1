@@ -3,7 +3,7 @@
 Script to setup my nav helper
 
 .EXAMPLE
-PS> .\Setup-Navigation-Helper -alias goto
+PS> .\Setup-Navigation-Helper.ps1 -alias goto
 #>
 
 param(

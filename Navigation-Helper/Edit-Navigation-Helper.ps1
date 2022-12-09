@@ -3,7 +3,7 @@
 Used to add or remove values in config to be used by Navigation-Helper
 
 .EXAMPLE
-PS> .\Edit-Navigation-Helper -add -key test -dir C:\some\directory
+PS> .\Edit-Navigation-Helper.ps1 -add -key test -dir C:\some\directory
 
 key   directory
 ---   ---------
@@ -11,14 +11,14 @@ test  C:\some\directory
 test2 C:\test2\directory
 
 .EXAMPLE
-PS> .\Edit-Navigation-Helper -remove -key test
+PS> .\Edit-Navigation-Helper.ps1 -remove -key test
 
 key   directory
 ---   ---------
 test2 C:\test2\directory
 
 .EXAMPLE
-PS> .\Edit-Navigation-Helper -list
+PS> .\Edit-Navigation-Helper.ps1 -list
 
 key   directory
 ---   ---------
