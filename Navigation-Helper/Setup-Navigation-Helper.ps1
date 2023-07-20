@@ -113,6 +113,11 @@ Write-Host "Config file created at" $PSScriptRoot\config.json
 # Write the alias to the PowerShell profile
 $profileValues = @()
 
+If(!(Test-Path -PathType Container $profile))
+{
+    New-Item -ItemType Directory -Path $psProfileDir
+}
+
 if (Test-Path -Path $profile -PathType Leaf) {
 
     Write-Host "Existing PowerShell profile file found. Appending alias values."
